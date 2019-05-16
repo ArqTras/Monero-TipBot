@@ -23,7 +23,7 @@ AppConfig GlobalConfig;
 // IntenseCoin Config (Default)
 #define RPC_FILENAME                            "arqma-wallet-rpc"
 #define RPC_HOSTNAME                            "127.0.0.1"
-#define DAEMON_ADDRESS                          "127.0.0.1:19994"
+#define DAEMON_ADDRESS                          "node.supportarqma.com:19994"
 #define RPC_JSON                                "/json_rpc"
 #define WALLET_PATH                             "Wallets/"
 #define COIN_OFFSET                             1000000000.0 // 1 x 10^9

@@ -68,7 +68,7 @@ void setup()
     if (coin_config.empty())
     {
         std::cout << "Welcome to Tipbot!\n"
-            << "Created by Brandan Tyler Lasley\n";
+            << "Created by Brandan Tyler Lasley mod by ArqTras\n";
 
         Poco::File coindir(COIN_CONFIG);
         std::vector<Poco::File> config_files;

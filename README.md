@@ -1,5 +1,5 @@
 # Monero-TipBot
-Discord Tipbot built in C++ for Monero/IntenseCoin
+Discord Tipbot built in C++ for Monero/IntenseCoin/Arqma
 
 Discord: https://discord.gg/TyD4jfU
 
@@ -10,7 +10,7 @@ Discord: https://discord.gg/TyD4jfU
 
 ### Linux
 * cmake .
-* make 
+* make
 
 ## Applications
 
@@ -49,7 +49,7 @@ Discord: https://discord.gg/TyD4jfU
 ## Requirements
 * IntenseCon/Arqma/Monero Daemon
 * IntenseCoin/Arqma/Monero RPC
-* Discord Token 
+* Discord Token
 * TCP Port 11000 to 11100 free to bind (can be redefined in config)
 
 ## Dependencies (included)
@@ -71,18 +71,18 @@ Next you'll need to open the daemon for the coin, for example, `intensecoind` fo
 The file structure should look like this:
 * intensecoind/monerocoind
 * intense-wallet-rpc/monero-wallet-rpc
-* TIPBOT <- This programs executable. 
+* TIPBOT <- This programs executable.
 * Wallets/ <-- this is a directory. This will be created after running TIPBOT.
 
 ## Discord Token Setup
-Navigate to "My Apps" on Discord (https://discordapp.com/developers/applications/me). 
-Click new app, give it a name and description. 
+Navigate to "My Apps" on Discord (https://discordapp.com/developers/applications/me).
+Click new app, give it a name and description.
 Click create a bot user.
 Copy the token generated on that page and open TIPBOT and enter it when prompted.
-To add a bot user to your account you'll need to get the client id for the bot which is also on that page. 
+To add a bot user to your account you'll need to get the client id for the bot which is also on that page.
 Then navigate to this url (https://discordapp.com/oauth2/authorize?client_id=CLIENTID&scope=bot) and replace CLIENTID in the url with the client url on the page.
 
-The bot should now be ready to run. Launch it, enter the token, and type `!balance` and if it returns a balance of 0 then the communication between the bot and the RPC is working correctly. 
+The bot should now be ready to run. Launch it, enter the token, and type `!balance` and if it returns a balance of 0 then the communication between the bot and the RPC is working correctly.
 
 Author: Brandan Tyler Lasley
 * BTC: 1KsX66J98WMgtSbFA5UZhVDn1iuhN5B6Hm
