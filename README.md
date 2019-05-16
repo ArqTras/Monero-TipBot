@@ -47,8 +47,8 @@ Discord: https://discord.gg/TyD4jfU
 * !buytickets [amount]
 
 ## Requirements
-* IntenseCon/Monero Daemon
-* IntenseCoin/Monero RPC
+* IntenseCon/Arqma/Monero Daemon
+* IntenseCoin/Arqma/Monero RPC
 * Discord Token 
 * TCP Port 11000 to 11100 free to bind (can be redefined in config)
 
