@@ -21,14 +21,14 @@ GNU General Public License for more details.
 AppConfig GlobalConfig;
 
 // IntenseCoin Config (Default)
-#define RPC_FILENAME                            "intense-wallet-rpc"
+#define RPC_FILENAME                            "arqma-wallet-rpc"
 #define RPC_HOSTNAME                            "127.0.0.1"
-#define DAEMON_ADDRESS                          "127.0.0.1:48782"
+#define DAEMON_ADDRESS                          "127.0.0.1:19994"
 #define RPC_JSON                                "/json_rpc"
 #define WALLET_PATH                             "Wallets/"
-#define COIN_OFFSET                             100000000.0 // 1 x 10^8
-#define DEFAULT_MIXIN                           4
-#define COIN_ABBV                               std::string("ITNS");
+#define COIN_OFFSET                             1000000000.0 // 1 x 10^9
+#define DEFAULT_MIXIN                           6
+#define COIN_ABBV                               std::string("ARQ");
 #define STARTING_PORT_NUMBER                    11000
 #define MAX_RPC_LIMIT                           200
 #define RPC_ERROR_GIVEUP                        3
@@ -50,12 +50,10 @@ AppConfig GlobalConfig;
 
 const DiscordID DiscordAdmins[] =
 {
-    380370690030829578, // Valiant
-    144619872444219392, // ddvs1
-    266700783897018369, // SlowGrowth
-    415162452725202944, // iedemam
-    345699014806732800, // ThePigwee
-    206430811430322176, // Brandan
+    360552578519531521, // m@lbit
+    419076509156900864, // ArqTras
+    402840927196020746, // SmajeNz0
+    437239546258784261, // muscleonvacation
 };
 
 AppConfig::AppConfig()
