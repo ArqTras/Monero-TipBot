@@ -7,10 +7,10 @@
         "General": {
             "discordToken": "",
             "Admins": [
+                367991107511910430,
                 360552578519531521,
-                419076509156900864,
-                402840927196020746,
-                437239546258784261
+                437239546258784261,
+                402840927196020746
             ]
         },
         "RPC": {
@@ -22,7 +22,7 @@
             "address_length": 97,
             "filename": "arqma-wallet-rpc",
             "hostname": "127.0.0.1",
-            "daemon_hostname": "node.supportarqma.com:19994"
+            "daemon_hostname": "127.0.0.1:19994"
         },
         "RPCManager": {
             "starting_port_number": 11000,
