@@ -22,7 +22,7 @@
             "address_length": 97,
             "filename": "arqma-wallet-rpc",
             "hostname": "127.0.0.1",
-            "daemon_hostname": "node.supportcryptonight.com:19994"
+            "daemon_hostname": "node.supportarqma.com:19994"
         },
         "RPCManager": {
             "starting_port_number": 11000,
